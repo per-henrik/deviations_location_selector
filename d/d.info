@@ -1,0 +1,12 @@
+name = Deviations Location Selector
+core = 7.x
+package = Deviations
+version = 7.x-0.1
+project = d
+dependencies[] = page_manager
+features[ctools][] = page_manager:pages_default:1
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[page_manager_pages][] = location_selector
+features[views_view][] = location_selector_filter
+features_exclude[dependencies][views] = views

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Deviations Location Selector feature.
+ */
+
+include_once 'd.features.inc';
